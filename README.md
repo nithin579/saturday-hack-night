@@ -59,7 +59,7 @@ The front-end and backend work in a classic client-server architecture:
 ## Project by:
 Nithin samuel
 ## Link to product walkthrough
-[link to video](Link Here)
+[[link to video](https://drive.google.com/file/d/1cSlUcpa6lAweMuBRi3570nrgROR5ud4P/view?usp=sharing)](Link Here)
 ## How it Works ?
 This full-stack website operates on a classic client-server architecture. The front-end and backend are decoupled, communicating with each other through a RESTful API.
 
