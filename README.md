@@ -61,11 +61,49 @@ Nithin samuel
 ## Link to product walkthrough
 [link to video](Link Here)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+This full-stack website operates on a classic client-server architecture. The front-end and backend are decoupled, communicating with each other through a RESTful API.
+
+Front-End (Client): A user interacts with the dashboard in their web browser. This interface is built with vanilla HTML, CSS, and JavaScript. When the user performs an action like adding a movie, the JavaScript code creates an asynchronous fetch request to the backend API.
+
+Backend (Server): The FastAPI server, built with Python, is always listening for requests. It receives the fetch request from the front-end, validates the incoming data using Pydantic models, and performs the required logic (e.g., adding the new movie to the in-memory dictionary).
+
+Response: After processing the request, the FastAPI server sends a JSON response back to the front-end. This response indicates whether the operation was successful and includes any relevant data.
+
+UI Update: The front-end's JavaScript receives this JSON response. It then updates the HTML DOM to reflect the changes, such as displaying a success message and adding the new movie card to the grid, all without needing to reload the page.
 ## Libraries used
-Library Name - Version
-## How to configure
-Instructions for setting up project
+Here's a breakdown of your project based on your request.
+
+## How it Works?
+This full-stack website operates on a classic client-server architecture. The front-end and backend are decoupled, communicating with each other through a RESTful API.
+
+Front-End (Client): A user interacts with the dashboard in their web browser. This interface is built with vanilla HTML, CSS, and JavaScript. When the user performs an action like adding a movie, the JavaScript code creates an asynchronous fetch request to the backend API.
+
+Backend (Server): The FastAPI server, built with Python, is always listening for requests. It receives the fetch request from the front-end, validates the incoming data using Pydantic models, and performs the required logic (e.g., adding the new movie to the in-memory dictionary).
+
+Response: After processing the request, the FastAPI server sends a JSON response back to the front-end. This response indicates whether the operation was successful and includes any relevant data.
+
+UI Update: The front-end's JavaScript receives this JSON response. It then updates the HTML DOM to reflect the changes, such as displaying a success message and adding the new movie card to the grid, all without needing to reload the page.
+
+Project Demo
+(Note: I cannot embed videos directly. You would typically embed a video in a GitHub README file using this Markdown format after uploading the video to a platform like YouTube.)
+
+Markdown
+
+[![Movie DB Demo Video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+## Libraries Used
+The project uses a minimal set of powerful libraries for the backend and no external libraries for the front-end.
+
+Backend (Python)
+These would be listed in a requirements.txt file.
+
+fastapi - 0.111.0
+
+uvicorn - 0.29.0 (Used as the ASGI server to run the API)
+
+pydantic - 2.7.1 (Used by FastAPI for data validation)
+
+Front-End (JavaScript)
+No external libraries are used. The front-end is built with pure, "vanilla" JavaScript, HTML, and CSS, demonstrating core web development skills.
+
 ## How to Run
-Instructions for running
+You need to run the backend server first, and then open the front-end file.
