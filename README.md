@@ -84,12 +84,7 @@ Response: After processing the request, the FastAPI server sends a JSON response
 
 UI Update: The front-end's JavaScript receives this JSON response. It then updates the HTML DOM to reflect the changes, such as displaying a success message and adding the new movie card to the grid, all without needing to reload the page.
 
-Project Demo
-(Note: I cannot embed videos directly. You would typically embed a video in a GitHub README file using this Markdown format after uploading the video to a platform like YouTube.)
 
-Markdown
-
-[![Movie DB Demo Video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
 ## Libraries Used
 The project uses a minimal set of powerful libraries for the backend and no external libraries for the front-end.
 
